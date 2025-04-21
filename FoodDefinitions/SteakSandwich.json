@@ -1,0 +1,21 @@
+{
+  "name": "Steak Sandwich",
+  "lore": [
+    "This sandwich has steak!",
+    "Yummy!"
+  ],
+  "texture": "SteakSandwich.png",
+  "hunger": 5,
+  "saturation": 5,
+  "recipe": [
+    {
+      "type": "shaped",
+      "shape": [
+        "B",
+        "S",
+        "B"
+      ]
+    }
+  ],
+  "effects": []
+}

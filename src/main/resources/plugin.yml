@@ -1,0 +1,4 @@
+name: FoodPlugin2
+version: '1'
+main: max.plugin.foodPlugin2.FoodPlugin2
+api-version: '1.21'

@@ -1,0 +1,13 @@
+{
+  "name": "Sushi",
+  "texture": "sushi.png",
+  "effects": [
+    {
+      "effect": "swiftnews",
+      "time": 1,
+      "strength": 2
+    }
+  ],
+  "saturation": 2,
+  "hunger": 3
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/bread"
+    },
+    "cases": [
+      {
+        "when": "Steak Sandwich",
+        "model": {
+          "type": "model",
+          "model": "item/SteakSandwich"
+        }
+      }
+    ]
+  }
+}
