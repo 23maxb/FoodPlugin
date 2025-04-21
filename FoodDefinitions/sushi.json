@@ -1,13 +1,32 @@
 {
   "name": "Sushi",
-  "texture": "sushi.png",
   "effects": [
     {
-      "effect": "swiftnews",
+      "effect": "swiftness",
       "time": 1,
       "strength": 2
     }
   ],
   "saturation": 2,
-  "hunger": 3
+  "hunger": 3,
+  "recipes": [
+    {
+      "countOnCraft": 1,
+      "type": "shaped",
+      "shape": [
+        "B",
+        "S",
+        "B"
+      ],
+      "keys": {
+        "B": "BREAD",
+        "S": "COOKED_BEEF"
+      }
+    }
+  ],
+  "lore": [
+    "lore1",
+    "lore2"
+  ],
+  "class": "sandwich"
 }
